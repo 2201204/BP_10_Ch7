@@ -6,7 +6,7 @@ t.color("black", "white")
 s = turtle.Screen(); s.bgcolor('skyblue');       # 색 지정
 def draw_snowman(x, y):                      # 함수 생성 x,y 변수 지정
     t.up()                                   # 펜을 든다.
-    t.goto(x, y)                              # (x, y)으로 이동한다.
+    t.goto(x, y)                              # 좌표 이동한다.
     t.down()                                  # 펜을 내린다.
     t.begin_fill()                            # 채울 모양을 그리기 직전에 호출
     t.circle(20)                              # 20으로 원을 생성
